@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    tools:context=".DoctorsDetailActivity">
+
+    <TextView
+        android:id="@+id/titleHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#9C27B0"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Healthcare"/>
+
+    <TextView
+        android:id="@+id/textviewLabTesttTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deliver location : Patna"
+        android:textColor="#4CAF50"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/ldPackageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab Test and Package"
+        android:gravity="center"
+        android:textColor="#3F51B5"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/lDedittextMultiLine"
+        android:layout_width="395dp"
+        android:layout_height="350dp"
+        android:text="tushar\n hello"
+        android:gravity="start|top"
+        android:ems="10"
+        android:textColor="@color/lightBlk"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_margin="10dp">
+
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lDtotalCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="default text"
+            android:textColor="#3F51B5"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btnldAddCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:text="Add To Cart"/>
+        <Button
+            android:id="@+id/btnlDback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="back"/>
+
+    </LinearLayout>
+
+</LinearLayout>
